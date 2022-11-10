@@ -1,0 +1,29 @@
+﻿@using Types
+
+<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/cover_bg_3.jpg); height: 726px; background-position: 0px 0px;" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight" style="height: 726px;">
+						<div class="display-tc js-fullheight animate-box fadeIn animated-fast" data-animate-effect="fadeIn" style="height: 726px;">
+							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<h1><span>@User?.FullName</span></h1>
+							<h3><span>@User?.Profession</span></h3>
+							<p>
+								</p><ul class="fh5co-social-icons">
+									<li><a href="@User?.Github"><i class="icon-github2"></i></a></li>
+									<li><a href="@User?.Linkedin"><i class="icon-linkedin2"></i></a></li>
+								</ul>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+@code {
+ [Parameter]
+ public UserModel? User {get; set;}
+}

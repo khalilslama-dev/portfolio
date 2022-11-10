@@ -1,0 +1,22 @@
+﻿@using Types
+@inject HttpClient Http
+
+<PageTitle>@name</PageTitle>
+<Header user=@resume?.User></Header>
+@if( resume != null && resume.User != null && resume.About != null)
+{
+  <About user=@resume.User information=@resume.About></About>
+}
+<ExperiencesAndEducation experiences=@resume?.Experiences educations=@resume?.Educations></ExperiencesAndEducation>
+<Services ServicesList=@resume?.Services></Services>
+<Skills SkillsList=@resume?.Skills></Skills>
+@code {
+  string name = "Slama Ahmed Khalil";
+
+  public ResumeModel? resume { get; set; }
+
+  protected override async Task OnInitializedAsync()
+  {
+    resume = await Http.GetFromJsonAsync<ResumeModel>("sample-data/resume.json");
+  }
+}

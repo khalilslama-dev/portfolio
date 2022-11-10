@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = ResumeApp
+build_property.RootNamespace = ResumeApp
+build_property.ProjectDir = D:\dotnet\MicrosoftLearn\DotNetConf2022\Resume\ResumeApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\dotnet\MicrosoftLearn\DotNetConf2022\Resume\ResumeApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/ExperiencesAndEducation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhwZXJpZW5jZXNBbmRFZHVjYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Service.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2tpbGxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Education.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hmq2h76y7e
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Experience.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhwZXJpZW5jZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qf7mj6htzp
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Resume.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-4rwedrkzwp
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Pages/Skill.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2tpbGwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-av6n9eerg6
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-p1g9quff5w
+
+[D:/dotnet/MicrosoftLearn/DotNetConf2022/Resume/ResumeApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-a99adk34un

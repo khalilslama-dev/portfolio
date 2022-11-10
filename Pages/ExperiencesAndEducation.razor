@@ -1,0 +1,57 @@
+﻿@using Types
+<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box fadeInUp animated-fast">
+							<div><h3>Work Experience</h3></div>
+						</li>
+                        @{ var index = 0;}
+                        @foreach (var Experience in Experiences)
+                        {
+                            if (index % 2 == 0)
+                            {
+                                <Experience ExperienceData=Experience Offset="timeline-inverted"></Experience>
+                            }
+                            else
+                            {
+                                <Experience ExperienceData=Experience Offset="timeline-unverted"></Experience>
+                            }
+                            index++;
+                        }
+						<br>
+                        <li class="timeline-heading text-center animate-box fadeInUp animated-fast">
+							<div><h3>Education</h3></div>
+						</li>
+                        @foreach (var Education in Educations)
+                        {
+                            if (index % 2 == 0)
+                            {
+                                <Education EducationData=Education Offset="timeline-inverted"></Education>
+                            }
+                            else
+                            {
+                                <Education EducationData=Education Offset="timeline-unverted"></Education>
+
+                            }
+                            index++;
+                        }
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+@code {
+    [Parameter]
+    public List<ExperienceModel>? Experiences { get; set;}
+
+    [Parameter]
+    public List<EducationModel>? Educations { get; set;}
+}

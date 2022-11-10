@@ -1,0 +1,21 @@
+﻿@using Types
+<div id="fh5co-skills" class="animate-box animated fadeInUp animated-fast">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+            <div class="row">
+            @foreach (var Skill in SkillsList)
+            {
+                <Skill SkillData=Skill></Skill>
+            }
+            </div>
+		</div>
+	</div>
+
+@code {
+ [Parameter]
+ public List<SkillModel>? SkillsList { get; set; }
+}

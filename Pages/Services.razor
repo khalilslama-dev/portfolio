@@ -1,0 +1,25 @@
+﻿@using Types
+<div id="fh5co-features" class="animate-box fadeInUp animated-fast">
+    <div class="container">
+        <div class="services-padding">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>My Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var Service in ServicesList)
+                {
+                <div class="col-md-4 text-center">
+                    <Service ServiceData=Service></Service>
+                </div>    
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public List<ServiceModel>? ServicesList { get; set; }
+}

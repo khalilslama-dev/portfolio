@@ -1,0 +1,15 @@
+﻿@using Types
+<div class="feature-left">
+    <span class="icon">
+        <i class="@ServiceData?.icon"></i>
+    </span>
+    <div class="feature-copy">
+        <h3>@ServiceData?.Name</h3>
+        <p>@ServiceData?.Description</p>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public ServiceModel? ServiceData { get; set; }
+}

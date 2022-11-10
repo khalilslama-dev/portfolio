@@ -1,0 +1,22 @@
+﻿@using Types
+
+<li class="animate-box @Offset fadeInUp animated-fast">
+    <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+    <div class="timeline-panel">
+        <div class="timeline-heading">
+            <h3 class="timeline-title">@ExperienceData?.Title</h3>
+            <span class="company">@ExperienceData?.CompanyName - @ExperienceData?.Tenure</span>
+        </div>
+        <div class="timeline-body">
+            <p>@ExperienceData?.Description .</p>
+        </div>
+    </div>
+</li>
+
+@code {
+    [Parameter]
+    public ExperienceModel? ExperienceData { get; set; }
+
+    [Parameter]
+    public string? Offset { get; set;}
+}

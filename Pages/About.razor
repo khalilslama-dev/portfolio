@@ -1,0 +1,40 @@
+﻿@using Types
+<div id="fh5co-about" class="animate-box fadeInUp animated-fast">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<h2>About Me</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<ul class="info">
+					<li><span class="first-block">Full Name:</span><span class="second-block">@User?.FullName</span>
+					</li>
+					<li><span class="first-block">Email:</span><span class="second-block">@User?.Email</span></li>
+				</ul>
+			</div>
+			<div class="col-md-8">
+				<h2>Hello There!</h2>
+				<p>
+					@Information
+				</p>
+				<ul class="fh5co-social-icons">
+					<li><a href="@User?.Github"><i class="icon-github2"></i></a></li>
+					<li><a href="@User?.Linkedin"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+				<p></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+@code
+{
+	[Parameter]
+	public UserModel? User { get; set; }
+
+	[Parameter]
+	public string? Information { get; set; }
+}

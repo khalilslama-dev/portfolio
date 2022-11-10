@@ -1,0 +1,20 @@
+﻿@using Types
+
+
+
+  <div class="col-md-6">
+    <div class="progress-wrap">
+      <h3><span class="name-left">@SkillData?.Name</span><span class="value-right">@SkillData?.EstimatedLevel</span></h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="@SkillData?.EstimatedLevel"
+          aria-valuemin="0" aria-valuemax="100" style="width:@SkillData?.EstimatedLevel%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+@code {
+  [Parameter]
+  public SkillModel? SkillData { get; set; }
+}
